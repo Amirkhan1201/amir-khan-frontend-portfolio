@@ -12,8 +12,7 @@ export const profile = {
   linkedin: 'https://linkedin.com/in/amir-khan-j',
   linkedinLabel: 'linkedin.com/in/amir-khan-j',
   portfolio: 'https://amir-khan-port-folio.vercel.app',
-  // TODO: paste your updated Google Drive resume link here
-  resume: '#',
+  resume: 'https://drive.google.com/drive/u/0/folders/1TsD-b_Jen0tMm55dS1MmIsH3fGp0Nt_j',
   roles: [
     'React Developer',
     'TypeScript Enthusiast',
