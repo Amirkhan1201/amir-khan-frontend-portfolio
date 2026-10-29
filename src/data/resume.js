@@ -12,7 +12,7 @@ export const profile = {
   linkedin: 'https://linkedin.com/in/amir-khan-j',
   linkedinLabel: 'linkedin.com/in/amir-khan-j',
   portfolio: 'https://amir-khan-port-folio.vercel.app',
-  resume: 'https://drive.google.com/drive/u/0/folders/1TsD-b_Jen0tMm55dS1MmIsH3fGp0Nt_j',
+  resume: 'https://drive.google.com/file/d/14e0SFfw8YBQIpndKBbOr-RIXPB8VtIkD/view?usp=sharing',
   roles: [
     'React Developer',
     'TypeScript Enthusiast',
