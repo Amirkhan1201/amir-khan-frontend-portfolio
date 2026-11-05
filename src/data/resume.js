@@ -5,14 +5,14 @@ export const profile = {
   name: 'Amir Khan J',
   firstName: 'Amir',
   role: 'Software Engineer – React Developer',
-  experience: '3.7',
+  experience: '4',
   location: 'Chennai, India',
   phone: '+91 8608651201',
   email: 'itsroiak@gmail.com',
   linkedin: 'https://linkedin.com/in/amir-khan-j',
   linkedinLabel: 'linkedin.com/in/amir-khan-j',
-  portfolio: 'https://amir-khan-port-folio.vercel.app',
-  resume: 'https://drive.google.com/file/d/14e0SFfw8YBQIpndKBbOr-RIXPB8VtIkD/view?usp=sharing',
+  portfolio: 'https://amir-khan-frontend-portfolio.vercel.app',
+  resume: 'https://drive.google.com/drive/u/0/folders/1TsD-b_Jen0tMm55dS1MmIsH3fGp0Nt_j',
   roles: [
     'React Developer',
     'TypeScript Enthusiast',
@@ -24,7 +24,7 @@ export const profile = {
 
 export const summary = {
   intro:
-    'React Developer with 3.7 years of hands-on experience building responsive, high-performance and user-friendly web applications for fintech, banking and e-commerce clients.',
+    'React Developer with 4 years of hands-on experience building responsive, high-performance and user-friendly web applications for fintech, banking and e-commerce clients.',
   points: [
     { k: 'core', v: 'React.js — components, hooks, Context, Redux Toolkit' },
     { k: 'language', v: 'TypeScript & modern JavaScript (ES6+)' },
@@ -82,7 +82,7 @@ export const experience = [
     id: 'compunet',
     company: 'Compunet Connections',
     role: 'Software Engineer',
-    period: 'Jan 2025 – Jun 2026',
+    period: 'Jan 2025 – Present',
     branch: 'feature/fintech-p2p',
     tagline: 'Saudi-based peer-to-peer lending platform',
     stack: ['React.js', 'TypeScript', 'Redux Toolkit', 'Material UI', 'Next.js', 'JWT'],
@@ -119,7 +119,7 @@ export const experience = [
     tagline: 'Shopify e-commerce storefronts',
     stack: ['React.js', 'Shopify Liquid', 'Mobile-first', 'SEO'],
     commits: [
-      'Developed 2 Shopify e-commerce websites, Hold the Magic and Elite Shield, using React.js and Shopify Liquid.',
+      'Developed 3 Shopify e-commerce websites, Hold the Magic, Elite Shield and Chocolat Moderne, using React.js and Shopify Liquid.',
       'Built reusable UI components with form validations and mobile-first responsive layouts.',
       'Improved mobile page speed by 25% through image optimization and lazy loading, with SEO-friendly pages.',
     ],
@@ -127,7 +127,7 @@ export const experience = [
 ]
 
 export const metrics = [
-  { value: 3.7, decimals: 1, suffix: ' yrs', label: 'Professional React experience' },
+  { value: 4, suffix: ' yrs', label: 'Professional React experience' },
   { value: 30, suffix: '%', label: 'Faster initial page load (Next.js SSR + code splitting)' },
   { value: 25, suffix: '%', label: 'Faster mobile page speed (Shopify)' },
   { value: 20, suffix: '%', label: 'Fewer redundant API calls (banking)' },
@@ -177,13 +177,13 @@ export const projects = [
     client: 'Innoppl',
     kind: 'E-commerce',
     link: 'https://www.eliteshield.com/',
-    desc: 'Shopify storefront — image optimization and lazy loading for 25% faster mobile speed.',
+    desc: 'Premium-gear Shopify storefront built with React.js and Shopify Liquid, mobile-first and SEO-friendly.',
     tags: ['Shopify', 'SEO', 'Performance'],
     hue: 0,
   },
   {
     title: 'Chocolat Moderne',
-    client: 'Shopify',
+    client: 'Innoppl',
     kind: 'E-commerce',
     link: 'https://chocolatmoderne.com/',
     desc: 'Premium chocolate e-commerce storefront with mobile-first, SEO-friendly pages.',
