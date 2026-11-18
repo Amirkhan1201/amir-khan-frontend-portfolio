@@ -129,3 +129,20 @@ export function useCopy(timeout = 1500) {
 
 export const prefersReducedMotion = () =>
   typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
+
+/** Dark / light theme stored on <html data-theme>, remembered per browser. */
+export function useTheme() {
+  const [theme, setTheme] = useState(() =>
+    typeof document !== 'undefined' && document.documentElement.dataset.theme === 'light' ? 'light' : 'dark'
+  )
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme
+    try {
+      localStorage.setItem('theme', theme)
+    } catch {
+      /* storage blocked — theme just won't be remembered */
+    }
+  }, [theme])
+  const toggle = useCallback(() => setTheme((t) => (t === 'dark' ? 'light' : 'dark')), [])
+  return [theme, toggle]
+}

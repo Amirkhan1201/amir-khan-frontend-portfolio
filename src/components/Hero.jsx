@@ -1,8 +1,27 @@
 import { useEffect, useRef } from 'react'
 import { profile, summary } from '../data/resume'
-import { useTypewriter } from '../hooks'
+import { useTypewriter, useCountUp } from '../hooks'
 import { SplitText, Magnetic } from './ui'
 import portrait from '../assets/amir.webp'
+
+const STATS = [
+  { value: 4, suffix: '', label: 'Years in React' },
+  { value: 6, suffix: '', label: 'Live client projects' },
+  { value: 20, suffix: '+', label: 'Reusable components' },
+]
+
+function Stat({ s, i }) {
+  const v = useCountUp(s.value, true, 1500 + i * 250)
+  return (
+    <div>
+      <strong>
+        {v}
+        <em>{s.suffix}</em>
+      </strong>
+      <span>{s.label}</span>
+    </div>
+  )
+}
 
 export default function Hero() {
   const role = useTypewriter(profile.roles)
@@ -57,20 +76,17 @@ export default function Hero() {
               Resume ↗
             </Magnetic>
           </div>
+
+          <div className="hero-stats">
+            {STATS.map((s, i) => (
+              <Stat key={s.label} s={s} i={i} />
+            ))}
+          </div>
         </div>
 
         <div className="hero-visual">
           <figure className="portrait">
             <img src={portrait} alt={`${profile.name}, React Developer`} width="900" height="1123" />
-            <figcaption className="portrait-badge">
-              <strong>{profile.experience}</strong>
-              <span>
-                years
-                <br />
-                building React
-              </span>
-            </figcaption>
-            <div className="portrait-tag mono">⚛ React · TypeScript · Next.js</div>
           </figure>
         </div>
       </div>

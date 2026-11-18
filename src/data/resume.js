@@ -143,7 +143,7 @@ export const projects = [
     link: 'https://raqamyah.com/en',
     desc: 'Saudi-based P2P lending platform — public website + investor/borrower dashboard with loan, investment & KYC modules, JWT auth and Next.js SSR.',
     tags: ['Next.js', 'TypeScript', 'Redux Toolkit', 'MUI'],
-    hue: 152,
+    hue: 205,
   },
   {
     title: 'Citi',
@@ -152,7 +152,7 @@ export const projects = [
     link: 'https://www.citibank.ae/credit-cards/travel/citi-ultima-credit-card',
     desc: 'Pixel-accurate, responsive and accessible banking interfaces, tested across browsers.',
     tags: ['React.js', 'TypeScript', 'A11y'],
-    hue: 205,
+    hue: 195,
   },
   {
     title: 'Ujjivan Bank',
@@ -161,7 +161,7 @@ export const projects = [
     link: 'https://www.ujjivansfb.bank.in/',
     desc: 'SPA built with React Router — 20+ reusable components contributed to the core platform.',
     tags: ['React Router', 'SPA', 'Components'],
-    hue: 265,
+    hue: 215,
   },
   {
     title: 'Hold the Magic',
@@ -170,7 +170,7 @@ export const projects = [
     link: 'https://holdthemagic.com/',
     desc: 'Shopify storefront with reusable UI, validated forms and mobile-first layouts.',
     tags: ['React.js', 'Shopify Liquid'],
-    hue: 320,
+    hue: 200,
   },
   {
     title: 'Elite Shield',
@@ -179,7 +179,7 @@ export const projects = [
     link: 'https://www.eliteshield.com/',
     desc: 'Premium-gear Shopify storefront built with React.js and Shopify Liquid, mobile-first and SEO-friendly.',
     tags: ['Shopify', 'SEO', 'Performance'],
-    hue: 0,
+    hue: 210,
   },
   {
     title: 'Chocolat Moderne',
@@ -188,7 +188,7 @@ export const projects = [
     link: 'https://chocolatmoderne.com/',
     desc: 'Premium chocolate e-commerce storefront with mobile-first, SEO-friendly pages.',
     tags: ['Shopify', 'E-commerce', 'Responsive'],
-    hue: 25,
+    hue: 190,
   },
 ]
 
